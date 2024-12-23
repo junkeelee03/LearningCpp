@@ -1,4 +1,4 @@
-
+// CONTROL F5 to RUN THE CODE!!
 #include <iostream>
 #include <cstdlib>
 #include <ctime> 
@@ -100,7 +100,7 @@ int main() {
     // CAREFUL when converting short -> integer, or any of the fundamental types! Can cause a loss in values due to varying memory sizes
 
     // Random numbers: need to include cstdlib and ctime at the top of our code
-    long elapsedSeconds = time(nullpointer); 
+    long elapsedSeconds = time(0); 
     srand(elapsedSeconds); // can shorten code by inputting time(nullpointer) directly
     int number = rand() % 10; 
     std:: cout << number; 
@@ -108,7 +108,7 @@ int main() {
     // Rolling a dice 
     const short minValue = 1;
     const short maxValue = 6;
-    (rand() % (maxValue - minValue + 1) ) + minValue // Random number formula: (random (maxvalue - minvalue + 1)) +minvalue
+    (rand() % (maxValue - minValue + 1) ) + minValue; // Random number formula: (random (maxvalue - minvalue + 1)) +minvalue
      
 
     return 0;
