@@ -37,4 +37,17 @@ int main () {
     cout << "Deciphered into characters: " << char(i1) << " " << char(i2) << " " << char(i3) << " " << char(i4) << " " << char(i5) << " " << endl;
 
     
+    // if/else statements 
+    // User enters number, we output if it is odd or even 
+    int num; 
+    cout << "Enter a whole number: " << ; 
+    cin >> num; 
+    if (num % 2 == 0) { 
+        cout << "The number is even. " << endl;
+    } else { 
+        cout << "The number is odd." << endl;
+    }  
+
+  
+    system ("pause>0"); // just in case the console bugs when running the code 
 }
